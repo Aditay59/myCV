@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV ^_^</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://a7phabucket.s3.amazonaws.com/favicon.ico">
+
+
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    <section>
+      <div class="block block--sm block--header">
+        <div class="logo"></div>
+        <h1>Aditay Chaudhary</h1>
+        <h5>Web Developer </h5>
+        <hr/>
+      </div>
+      <div class="block block--hero-image"></div>
+    </section>
+    <section>
+      <div class="block block--sm block--heading">
+        <h1>Edu</br>cat</br>ion-</h1>
+      </div>
+      <div class="block block--content block--experience">
+        <article>
+          <p class="date">2020 - 2024</p>
+          <h4>Undergraduate Degree</h4>
+          <h5>BTech in Computer Science</h5>
+          <h4>Chitkara University</h4>
+          <hr/>
+        </article>
+        <article>
+          <p class="date">2019 - 2020</p>
+          <h4>High School Education</h4>
+          <h5>Class 12th with 86.14%</h5>
+          <h4>Aim Academy Sen. Sec. School</h4>
+          <hr/>
+        </article>
+      </div>
+    </section>
+    <section class="reverse">
+      <div class="block block--sm block--heading">
+        <h1>Skills-</h1>
+      </div>
+      <div class="block block--content block--skills">
+        <article>
+          <h4>Web development</h4>
+          <h5>HTML, CSS, JavaScript, Node.js, Typescript, MongoDB</h5>
+          <hr/>
+        </article>
+        <article>
+          <h4>Coding</h4>
+          <h5>Java, C++</h5>
+          <hr/>
+        </article>
+        <article>
+            <h4>Interpersonal Skills</h4>
+            <h5>Empathy, patience</h5>
+            <hr/>
+          </article>
+      </div>
+    </section>
+    <section>
+      <div class="block block--sm block--heading">
+        <h1>Certi</br>fica</br>tions-</h1>
+      </div>
+      <div class="block block--content block--education">
+        <article>
+            <p class="date">Indroduction to Python Programming</p>
+        </article>
+        
+        <article>
+            <p class="date">Object Oriented Programming in Java</p>
+        </article>
+          
+        <article>
+            <p class="date">Introduction to Cyber Security</p>
+        </article>
+          
+        <article>
+            <p class="date">Advance Web Development</p>
+        </article>
+      </div>
+    </section>
+    <section class="reverse">
+      <div class="block block--sm block--heading">
+        <h1>Contact-</h1>
+      </div>
+      <div class="block block--content block--work">
+        <article>
+          <p class="date">Mobile No.</p>
+          <h4><a class="work-link" href="#" onclick="callNumber('7876731606')">7876731606</a></h4>
+          <hr/>
+        </article>
+        <article>
+          <p class="date">Email</p>
+          <h4><a class="work-link" href="#" onclick="composeEmail('aditaycoudhary99@gmail.com')">aditaychoudhary99@gmail.com</a></h4>
+          <hr/>
+        </article>
+        <article>
+            <p class="date">Resume</p>
+            <h4><a class="work-link" target="_blank" href="https://a7phabucket.s3.amazonaws.com/Clean+and+Minimal+Graphic+Design+Resume+CV+Template+.pdf">Download</a></h4>
+            <hr/>
+          </article>
+      </div>
+    </section>
+
+    <script>
+        //sending an Email
+ function composeEmail(toEmail) {
+  var email = 'mailto:' + toEmail;
+  window.location.href = email;
+}
+
+//Calling 
+
+function callNumber(phoneNumber) {
+  var telLink = 'tel:' + phoneNumber;
+  window.location.href = telLink;
+}
+
+//Blur event title change
+
+window.addEventListener('blur',()=>{
+            document.title ="Bye!!!"
+        })
+window.addEventListener('focus',()=>{
+  document.title="My Cv ^_^";
+})
+
+    </script>
+
+  </body>
+  </html>
